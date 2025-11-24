@@ -12,6 +12,8 @@
         <module>step1-bean-factory</module>
         <module>step2-bean-autowire</module>
         <module>step3-bean-strategy</module>
+        <module>step4-property-injection</module>
+        <module>step5-resource-loader</module>
     </modules>
 
 

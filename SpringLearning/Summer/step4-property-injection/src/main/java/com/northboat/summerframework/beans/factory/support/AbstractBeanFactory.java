@@ -5,6 +5,8 @@ import com.northboat.summerframework.beans.factory.BeanFactory;
 import com.northboat.summerframework.beans.factory.config.BeanDefinition;
 import com.northboat.summerframework.beans.factory.support.singleton.DefaultSingletonBeanRegistry;
 
+// 继承 DefaultSingletonBeanRegistry，继承了单例 Bean 的注册和获取逻辑
+// 实现 BeanFactory getBean 接口逻辑，具体的 getBeanDefinition 和 createBean 都是抽象方法，由子类实现
 public abstract class AbstractBeanFactory extends DefaultSingletonBeanRegistry implements BeanFactory {
 
     // 实现 BeanFactory 的 getBean 接口
